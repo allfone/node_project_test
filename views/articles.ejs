@@ -1,0 +1,16 @@
+
+<!-- ejs 模版的 include 写法以这个为准，书上的写法跑不通  ，参考npm-->
+<%- include ('head') -%>
+<ul>
+    <% articles.forEach(function(article){ %>
+    <li> 
+        <a href="/articles/<%= article.id%> "> 
+            <%= article.title %>
+        </a>
+    </li>
+    <% }) %>
+</ul>
+<%- include ('foot') -%>
+
+
+
