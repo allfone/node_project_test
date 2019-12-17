@@ -11,6 +11,15 @@
 -  `ejs`
 -  `bootstrap`
 -  `supervisor`
+  
+##### 生成目录操作
+  ``` bash
+  npm install mddir
+  cd node_modules/mddir/src  //进入目录
+  ls                         //查看有没有 mddir.js 文件
+  node mddir "../../../"     //生成目录
+
+  ```
 
 ```
   |-- demo-test',
