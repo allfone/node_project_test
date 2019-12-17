@@ -12,4 +12,22 @@
 -  `bootstrap`
 -  `supervisor`
 
-
+```
+  '|-- demo-test',
+  '    |-- .gitignore',
+  '    |-- README.md',
+  '    |-- index.js',
+  '    |-- package-lock.json',
+  '    |-- package.json',
+  '    |-- middlewear',
+  '    |-- model',
+  '    |   |-- index.js',
+  '    |-- public',
+  '    |-- routes',
+  '    |-- views',
+  '        |-- articles.ejs',
+  '        |-- content.ejs',
+  '        |-- foot.ejs',
+  '        |-- head.ejs',
+  ''
+  ```
